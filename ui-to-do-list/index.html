@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./ui-to-do-list/style.css">
+</head>
+
+<body>
+    <div id="section" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" #name placeholder="Title...">
+        <span #plus class="addBtn">Add</span>
+    </div>
+
+    <ul #list>
+        <li class="checked">Acordar
+            <span class="close">&#215;</span>
+        </li>
+        <li class="checked">Tomar café
+            <span class="close">&#215;</span>
+        </li>
+        <li class="checked">Codar
+            <span class="close">&#215;</span>
+        </li>
+    </ul>
+
+    <script type='text/tiscript'>
+        event click $(#plus) {
+            if($(#name).text == ''){
+                view.msgbox(#alert, "You must write something!", "Alert")
+                return;
+            }
+
+            const element = <li>{$(#name).text}<span class="close">&#215;</span></li>;
+
+            $(#name).text = "";
+
+            $(ul#list).append(element);
+        }
+        
+        event click $(#list li) (evt, li) {
+            if(this.attributes["class"] === 'checked') {
+                this.attributes.removeClass("checked");
+              } else {
+                this.attributes.addClass("checked");
+              }
+          }
+    
+
+        event click $(.close) {
+            this.parent.remove();
+        }
+    </script>
+</body>

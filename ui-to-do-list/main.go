@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// create rect for window
-	windowRect := sciter.NewRect(0, 0, 800, 800)
+	windowRect := sciter.NewRect(0, 0, 800, 400)
 
 	// create sciter window object
 	win, _ := window.New(sciter.SW_TITLEBAR|sciter.SW_MAIN, windowRect)
@@ -16,7 +16,7 @@ func main() {
 	win.SetTitle("Test window")
 
 	// load index.html file in window
-	win.LoadFile("./ui-notes/index.html")
+	win.LoadFile("./ui-to-do-list/index.html")
 
 	// lauch sciter window
 	win.Show()

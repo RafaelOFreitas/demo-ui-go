@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// create rect for window
-	windowRect := sciter.NewRect(600, 600, 600, 600)
+	windowRect := sciter.NewRect(0, 0, 600, 600)
 
 	// create sciter window object
 	win, _ := window.New(sciter.SW_TITLEBAR|sciter.SW_MAIN, windowRect)
