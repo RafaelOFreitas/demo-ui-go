@@ -4,6 +4,8 @@
   
 + See more on [GitHub](https://github.com/sciter-sdk/go-sciter)
   
++ Maybe these [videos](https://www.youtube.com/playlist?list=PLub5C2vM5SjKvkbFfposhyg1V2gpXnviM) will help me understand how the library works 
+  
 + Creating screens with GO + HTML + CSS + SCRIPT
   
   - [Hello World](ui-hello-world/README.md)
