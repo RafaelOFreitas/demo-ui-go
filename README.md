@@ -1,6 +1,6 @@
 # Build cross platform desktop applications with HTML, CSS and script!
 
-![Sciter](https://sciter.com/wp-content/themes/sciter/!images/logo.png)
+![Sciter](img/sciter.png)
 
 + Creating desktop screens is easy using [sciter](https://sciter.com/).
   
