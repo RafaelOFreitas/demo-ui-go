@@ -2,5 +2,5 @@
 
 
 <div align="center">
-    <img src="img/ui-login.png" alt="Login!"/>
+    <img src="img/ui-login.gif" alt="Login!"/>
 </div>
