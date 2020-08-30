@@ -14,3 +14,13 @@
   - [Notes](ui-notes/README.md).
   - [Login Discord-clone](ui-login/README.md).
   - [To-Do List](ui-to-do-list/README.md).
+
+
++ My impressions:
+  
+  - Ease of use.
+  - With a few kb, we do a lot, unlike the Electron. Which also produces cross-platform desktop applications.
+  - I didn't find the documentation and items of this in an easy way, however on the [website](https://sciter.com/) you can search for problems efficiently.
+  - Embeddable, can be used with any programming language.
+  - Does not support all CSS 3 features 😥.
+  - We do not use JavaScript, but TIScript is an extended version of ECMAScript. Which is not necessarily a bad thing, but at the beginning it produces a certain discomfort, see more [here](https://sciter.com/developers/for-web-programmers/tiscript-vs-javascript/)
