@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>GO + HTML + CSS + TISCRIPT</title>
+    <link rel="stylesheet" href="./ui-notes/style.css">
+</head>
+
+<body>
+    <h1 class="title">Notes</h1>
+
+    <div #plus class="div-more" eve>
+        <h1 class="more">+</h1>
+    </div>
+
+    <div class="container">
+        <div #grades class="notes">
+            <textarea rows="10" class="note"></textarea>
+        </div>
+    </div>
+
+    <script type='text/tiscript'>
+        event click $(#plus) {
+            const element = <textarea rows="10" class="note"></textarea>;
+        
+            $(div#grades).append(element);
+        
+            return true;
+        }
+    </script>
+</body>
