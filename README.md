@@ -14,6 +14,7 @@
   - [Notes](ui-notes/README.md).
   - [Login Discord-clone](ui-login/README.md).
   - [To-Do List](ui-to-do-list/README.md).
+  - [Splash Screen](ui-splash-screen/README.md).
 
 
 + My impressions:
