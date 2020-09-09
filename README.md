@@ -1,5 +1,7 @@
 # Build cross platform desktop applications with HTML, CSS and script!
 
+![Sciter](img/sciter.png)
+
 ### Examples: 
 
 + [Hello World](ui-hello-world/).
